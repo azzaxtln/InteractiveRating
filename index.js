@@ -17,7 +17,8 @@ $(".sub").on("click", function(){
         $(".sectionStart").addClass("whoVisible")
         $(".sectionEnd").removeClass("whoVisible")
     } else{
-        alert("toma no cu rapa, da uma nota nessa porra");
+        alert("Select an option before submitting!
+");
     }
     
 })
