@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: 'Overpass', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.sectionStart{
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    height: 370px;
+    max-width: 330px;
+}
+
+.iconStar{
+background-color:  hsl(212, 14%, 23%);
+width: 44px;
+padding: 12px;
+display: grid;
+place-items: center;
+border-radius: 50%;
+}
+
+.title, .posTitle{
+    color: hsl(0, 0%, 100%);
+}
+
+.text, .posText{
+   color: hsl(217, 12%, 63%);
+  
+}
+
+.posText{
+    text-align: center;
+}
+.options{
+    display: flex;
+   gap: 10px;
+    
+    
+    justify-content: space-evenly;
+}
+
+.nums{
+    background-color: hsl(212, 14%, 23%);
+    padding: 14px;
+    height: 48px;
+    width: 48px;
+    color: hsl(217, 12%, 63%);;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.nums:hover{
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.sub{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.sub:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.clicked{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.sectionEnd{
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    height: 380px;
+    max-width: 330px;
+}
+
+.rating{
+    color: hsla(25, 97%, 53%, 0.733);
+    background-color:  hsl(212, 14%, 23%);
+    padding: 12px;
+    border-radius: 10px;
+
+}
+
+.whoVisible{
+    display: none;
+}
