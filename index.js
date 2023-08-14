@@ -17,8 +17,7 @@ $(".sub").on("click", function(){
         $(".sectionStart").addClass("whoVisible")
         $(".sectionEnd").removeClass("whoVisible")
     } else{
-        alert("Select an option before submitting!
-");
+        alert("Select a option!");
     }
     
 })
